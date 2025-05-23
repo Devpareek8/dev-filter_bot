@@ -115,7 +115,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>@FILMYTOZ {file_name}\n𝗠𝗢𝗩𝗜𝗘 𝗚𝗥𝗢𝗨𝗣 ✓ @FILMYCHAT2Z\n𝗝𝗢𝗜𝗡 𝗨𝘀 ✓ @FILMY2Z\n𝗕𝗔𝗖𝗞𝗨𝗣 ✓ @FILMYTOZ</b>"""
+    FILE_CAPTION = """<b>@FILMYTOZ {file_name}\n𝗠𝗢𝗩𝗜𝗘 𝗚𝗥𝗢𝗨𝗣 ✓ @Filmychat2zz\n𝗝𝗢𝗜𝗡 𝗨𝘀 ✓ @FILMY2Z\n𝗕𝗔𝗖𝗞𝗨𝗣 ✓ @FILMYTOZ</b>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
