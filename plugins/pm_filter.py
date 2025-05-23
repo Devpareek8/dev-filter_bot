@@ -754,7 +754,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🎗️ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇ 🎗️', url=f'https://t.me/{temp.U_NAME}?start=file_{chat_id}_{file_id}')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
-        return await query.message.edit(text=f'<b>ᴛʜᴀɴᴋs ғᴏʀ ᴊᴏɪɴɪɴɢ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ 🔥😗\nɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇ : {files.file_name[:20]}.. ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ⚡\n\nᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @JISSHU_BOTS</b>',reply_markup=reply_markup)
+        return await query.message.edit(text=f'<b>ᴛʜᴀɴᴋs ғᴏʀ ᴊᴏɪɴɪɴɢ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ 🔥😗\nɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇ : {files.file_name[:20]}.. ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ⚡\n\nᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @Nobody_065</b>',reply_markup=reply_markup)
 
     elif query.data == "give_trial":
         user_id = query.from_user.id
@@ -849,7 +849,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	)
     elif query.data == "free":
         buttons = [[
-            InlineKeyboardButton('☆📸 𝙎𝙚𝙣𝙙 𝙨𝙘𝙧𝙚𝙚𝙣𝙨𝙝𝙤𝙩 📸☆', url=f'https://t.me/JisshuDeveloperBot')
+            InlineKeyboardButton('☆📸 𝙎𝙚𝙣𝙙 𝙨𝙘𝙧𝙚𝙚𝙣𝙨𝙝𝙤𝙩 📸☆', url=f'https://t.me/Kvcaffbot')
         ],[
             InlineKeyboardButton('💎 𝗖𝘂𝘀𝘁𝗼𝗺 𝗣𝗹𝗮𝗻 💎', callback_data='other')
         ],[
@@ -951,7 +951,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
           chat_id=query.message.chat.id,
           message_id=query.message.id,
           media=InputMediaAnimation(
-            media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Welcome_video_20240921_184741_0001.gif",
+            media="https://graph.org/file/bec3546c37c5db09242e9-8ed87c5191a91d9e39.jpg",
             caption=script.ADMIN_CMD_TXT,
             parse_mode=enums.ParseMode.HTML
           ),
@@ -967,7 +967,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
           chat_id=query.message.chat.id,
           message_id=query.message.id,
           media=InputMediaAnimation(
-            media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Welcome_video_20240921_184741_0001.gif",
+            media="https://graph.org/file/bec3546c37c5db09242e9-8ed87c5191a91d9e39.jpg",
             caption=script.ADMIN_CMD_TXT2,
             parse_mode=enums.ParseMode.HTML
           ),
@@ -1002,11 +1002,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview = True
 	)
     elif query.data == "mydevelopers":
-        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @JISSHU_BOTS\n👨‍💻 @IM_JISSHU\n👨‍💻 @JOYBOY_ZORO\n👨‍💻 @TG_Anonymous_Official\n\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
+        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @Morning006 \n👨‍💻 @Kvcaffbot\n👨‍💻 @Nobody_065\n👨‍💻 \n\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
  
     elif query.data == "Source":
         buttons = [[
-            InlineKeyboardButton('Repo', url='https://github.com/Jisshubot/Jisshu-Filter-Bot')
+            InlineKeyboardButton('Repo', url='https://t.me/Kvcaffbot')
         ],[
             InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='about'),
             InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
@@ -1035,14 +1035,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	      InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
        ],[
               InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='features'),
-              InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/Jisshu_support'),
+              InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/+Z9RlLIWqo0I1OWQ1'),
        ]]
        reply_markup = InlineKeyboardMarkup(buttons)
        await client.edit_message_media(
           chat_id=query.message.chat.id,
           message_id=query.message.id,
           media=InputMediaAnimation(
-            media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Group_20240921_202540_0001.gif",
+            media="https://graph.org/file/bec3546c37c5db09242e9-8ed87c5191a91d9e39.jpg",
             caption=script.GROUP_TEXT.format(temp.B_LINK),
             parse_mode=enums.ParseMode.HTML
         ),
