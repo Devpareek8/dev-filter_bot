@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/qpxpGmC/image.jpg" alt="Dev-Auto-filter">
+  <img src="https://graph.org/file/fc6bfd26c42c634e826d4-04840ceffceb4eec7f.jpg" alt="Dev-Auto-filter">
 </p>
 <h1 align="center">
   <a href="https://telegram.me/Morning006">Dev Auto Filter Bot</a>
