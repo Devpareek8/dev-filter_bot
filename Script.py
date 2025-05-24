@@ -341,11 +341,10 @@ User - {}"""
 </blockquote>
 Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴀɴᴅ ᴜsᴇ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs😇</b>"""
 
-    SOURCE_TXT = """<b>
-NOTE:
-- ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/Nobody_065">Nobody𝗙𝗶𝗹𝘁𝗲𝗿-𝗕𝗼𝘁</a></blockquote>
-
-developer : Mr.Nobody 
+    SOURCE_TXT = """<b>🔥 Nᴏᴛᴇ:  
+🎬 𝐖𝐚𝐧𝐭 𝐀 𝐁𝐨𝐭 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬?:  
+✭ Main tumhare liye bhi ak aasa bot banane ke liye ready hoon ! 😜  
+✭ Agar tumhe chahiye ek bindaas bot, toh bas mujhe contact karo 🚀
 </b>""" 
     GROUP_C_TEXT = """<b><blockquote>
  --------------Set Verify-------------
