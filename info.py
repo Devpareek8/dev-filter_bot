@@ -14,32 +14,32 @@ def is_enabled(value, default):
     
 # Main
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '22329526'))
+API_HASH = environ.get('API_HASH', 'e8be8912f24648b31d7d76bdb5478e59')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 PORT = environ.get('PORT', '8082')
 
 # Owners 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5672857559').split()]
-OWNER_USERNAME = environ.get('OWNER_USERNAME', 'IM_JISSHU') # without @ or https://t.me/ 
+OWNER_USERNAME = environ.get('OWNER_USERNAME', 'akashgarg2005') # without @ or https://t.me/ 
 USERNAME = environ.get('USERNAME', "") # ADMIN USERNAME
 
 # Database Channel 
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002110232088').split()]
 
 # ForceSub Channel & Log Channels
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', ''))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', ''))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '')) 
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002720811822'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002720811822')) 
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002720811822'))
 
 # MongoDB 
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://psycho:pyscho007@pyscho-files.kbwj6v4.mongodb.net/?retryWrites=true&w=majority&appName=pyscho-files")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 
 # Files index database url
-FILES_DATABASE = environ.get('FILES_DATABASE', "")
+FILES_DATABASE = environ.get('FILES_DATABASE', "mongodb+srv://psycho:pyscho007@pyscho-files.kbwj6v4.mongodb.net/?retryWrites=true&w=majority&appName=pyscho-files")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'jisshu')
 
 # Other Channel's
